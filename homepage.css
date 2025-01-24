@@ -1,0 +1,101 @@
+:root{
+  --gradient: linear-gradient(180deg, rgba(45,112,1253,0.73) 0%,
+  #1639e2 100%);
+  --pink-gradient: linear-gradient(320deg, #ffffff 0%, #fdb5b5 74%);
+  --back: #fcf9e7;
+  --dark:#02050a;
+  --grey: #b1bacb;
+  --grey-border:rgba(210,210,210,0.75);
+  --grey-light: #eeeeee;
+  --grey-dark: $405175;
+  --pink: #f5bebe;
+  --white: #ffffff;
+}
+
+h2{
+  font-family: "Just Another Hand";
+  text-align: center;
+}
+
+.title{
+  text-transform: uppercase;
+  font-size: 50px;
+  word-spacing: 0.4rem;
+}
+
+.box-title{
+font-size: 80px;
+letter-spacing: 0.5rem;
+word-spacing: 1rem;
+}
+
+body{
+  margin: 0;
+  background: var(--back);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a.button {
+  text-decoration: none;
+  text-align: center;
+  color: var(--dark);
+  font-size: 16px;
+  padding: 0.7rem 1.5rem;
+  border: 0.06rem solid var(--dark);
+  border-radius: 0.3rem;
+  background-color: var(--pink);
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.log-button{
+  text-align: center;
+  padding: 50px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 2rem;
+  background: var(--white);
+  padding: 0.5rem 7rem;
+  height: 50%;
+  width: 60%;
+  box-shadow: 0 1rem 3rem 1rem rgba(0,23,71,0.15);
+  max-width: 30rem;
+  }
+
+.input{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .input-field{
+  padding: 10px;
+  border: 0.13rem solid var(--dark);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  }
+
+  input[type = "text"]::placeholder {
+  color: var(--grey);
+  }
+
+.bread{
+  width: 14rem;
+}
+
+.bread_img{
+  text-align: center;
+  position: relative;
+}
+
+.footer{
+  display:flex;
+  gap: 1.8rem;
+  padding: 1.2rem;
+}
